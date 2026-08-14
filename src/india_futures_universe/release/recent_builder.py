@@ -351,7 +351,15 @@ def _build_coverage_by_year(prices: pd.DataFrame, contracts: pd.DataFrame) -> pd
 def _build_pairs_history(prices: pd.DataFrame) -> pd.DataFrame:
     if prices.empty:
         return pd.DataFrame()
-    out = prices.rename(
+    executable = prices.copy()
+    for column in ["open", "high", "low", "close", "settlement_price"]:
+        executable[column] = pd.to_numeric(executable[column], errors="coerce")
+    executable = executable[
+        executable[["open", "high", "low", "close", "settlement_price"]].gt(0).all(axis=1)
+        & (executable["high"] >= executable[["open", "close", "low"]].max(axis=1))
+        & (executable["low"] <= executable[["open", "close", "high"]].min(axis=1))
+    ].copy()
+    out = executable.rename(
         columns={
             "underlying_symbol_raw": "underlying_symbol",
             "contract_id": "contract_identifier",
