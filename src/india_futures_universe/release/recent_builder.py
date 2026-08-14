@@ -82,7 +82,8 @@ def _load_contract_rows(config: FuturesUniverseConfig, sessions: list[str], symb
         path = _raw_path(config.paths.raw_root, "contract", trade_date, f"NSE_FO_contract_{trade_date[8:10]}{trade_date[5:7]}{trade_date[:4]}.csv.gz")
         if not path.exists():
             continue
-        parsed = parse_contract_file(path, as_of_date=trade_date, source_sha256=sha256_file(path))
+        source_sha = sha256_file(path)
+        parsed = parse_contract_file(path, as_of_date=trade_date, source_sha256=source_sha)
         parsed = parsed[parsed["instrument_type"] == "FUTSTK"].copy()
         if parsed.empty:
             continue
@@ -99,7 +100,7 @@ def _load_contract_rows(config: FuturesUniverseConfig, sessions: list[str], symb
             ),
             axis=1,
         )
-        mapped["contract_file_sha256"] = sha256_file(path)
+        mapped["contract_file_sha256"] = source_sha
         mapped["quality_status"] = mapped["mapping_status"].map(lambda s: "CONTRACT_AND_LOT_VERIFIED" if s == "EXACT_EFFECTIVE_SYMBOL_DATE_MATCH" else "UNRESOLVED_IDENTITY")
         frames.append(mapped)
     if not frames:
@@ -124,7 +125,8 @@ def _load_price_rows(config: FuturesUniverseConfig, sessions: list[str], symbol_
             continue
         parsed["trade_date"] = parsed["trade_date"].replace("", trade_date)
         mapped = _map_identity(parsed, symbol_history, date_col="trade_date")
-        mapped = _attach_contract_facts(mapped, contracts)
+        day_contracts = contracts[contracts["as_of_date"] == trade_date]
+        mapped = _attach_contract_facts(mapped, day_contracts)
         mapped["trading_observation_status"] = "TRADED_OR_SETTLED"
         mapped["data_quality_status"] = mapped["mapping_status"].map(lambda s: "CONTRACT_PRICE_WITH_MASTER" if s == "EXACT_EFFECTIVE_SYMBOL_DATE_MATCH" else "UNRESOLVED_IDENTITY")
         frames.append(mapped)
