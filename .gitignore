@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.venv*/
+*.pyc
+.DS_Store
+data/raw/
+data/incoming/
+data/normalized/
+data/canonical/
+data/derived/
+data/manifests/*.parquet
+releases/*/*.parquet

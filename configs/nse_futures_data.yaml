@@ -1,0 +1,43 @@
+project_id: INDIA_FUTURES_UNIVERSE_V1
+
+research:
+  start: "2006-01-31"
+  end: "2026-08-12"
+  instrument_types:
+    - FUTSTK
+
+active_universe:
+  release_root: "/Users/vikasgarg/Developer/india-active-universe/releases/india_equity_data_v2.2.9"
+  release_id: "india_equity_data_v2.2.9"
+  require_manifest_validation: true
+
+nse:
+  source_mode: ONLINE
+  reports_page: "https://www.nseindia.com/all-reports-derivatives"
+  minimum_seconds_between_requests: 1.5
+  maximum_retries: 3
+  connect_timeout_seconds: 15
+  read_timeout_seconds: 60
+  user_agent: "india-futures-universe/0.1 research data collector"
+  maximum_uncompressed_archive_mb: 250
+  maximum_compression_ratio: 100
+
+formats:
+  legacy_udiff_transition_date: "2024-07-08"
+  require_official_udiff_spec: true
+  require_official_contract_file: true
+
+quality:
+  require_unique_contract_date: true
+  require_effective_dated_identity: true
+  require_official_lot_size_for_high_confidence: true
+  settlement_relative_tolerance: 0.000001
+  maximum_unmapped_futstk_rows: 0
+
+paths:
+  raw_root: data/raw
+  normalized_root: data/normalized
+  canonical_root: data/canonical
+  derived_root: data/derived
+  report_root: reports
+  release_root: releases
