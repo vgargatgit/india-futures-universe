@@ -196,7 +196,9 @@ def _attach_contract_facts(prices: pd.DataFrame, contracts: pd.DataFrame) -> pd.
         prices["lot_size"] = pd.NA
         prices["contract_file_sha256"] = ""
         return prices
-    contract_key = contracts.rename(columns={"as_of_date": "trade_date", "market_lot": "lot_size"})
+    contract_key = contracts[
+        ["as_of_date", "security_id", "expiry_date", "exchange_instrument_id", "contract_id", "market_lot", "contract_file_sha256"]
+    ].rename(columns={"as_of_date": "trade_date", "market_lot": "lot_size"})
     join_cols = ["trade_date", "security_id", "expiry_date"]
     if "exchange_instrument_id" in prices.columns and prices["exchange_instrument_id"].astype(str).str.len().gt(0).any():
         merged = prices.merge(
