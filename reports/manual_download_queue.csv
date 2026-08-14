@@ -1,0 +1,4 @@
+trade_date,report_name,official_source_page,expected_format,reason_automatic_download_failed
+2006-01-31,LEGACY_FO_BHAVCOPY,https://www.nseindia.com/all-reports-derivatives,fo31JAN2006bhav.csv.zip,ACCESS_DENIED
+2010-01-29,LEGACY_FO_BHAVCOPY,https://www.nseindia.com/all-reports-derivatives,fo29JAN2010bhav.csv.zip,ACCESS_DENIED
+2013-01-31,LEGACY_FO_BHAVCOPY,https://www.nseindia.com/all-reports-derivatives,fo31JAN2013bhav.csv.zip,ACCESS_DENIED

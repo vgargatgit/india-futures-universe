@@ -1,0 +1,1410 @@
+{
+  "2006-01-31": [
+    {
+      "filename": "fo31JAN2006bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2006/JAN/fo31JAN2006bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20060131_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20060131_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_31012006.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_31012006.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_31012006.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_31012006.csv"
+    },
+    {
+      "filename": "nsccl.20060131.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20060131.s.zip"
+    },
+    {
+      "filename": "nsccl.20060131.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20060131.i01.zip"
+    }
+  ],
+  "2010-01-29": [
+    {
+      "filename": "fo29JAN2010bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2010/JAN/fo29JAN2010bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20100129_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20100129_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_29012010.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_29012010.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_29012010.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_29012010.csv"
+    },
+    {
+      "filename": "nsccl.20100129.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20100129.s.zip"
+    },
+    {
+      "filename": "nsccl.20100129.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20100129.i01.zip"
+    }
+  ],
+  "2013-01-31": [
+    {
+      "filename": "fo31JAN2013bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2013/JAN/fo31JAN2013bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20130131_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20130131_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_31012013.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_31012013.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_31012013.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_31012013.csv"
+    },
+    {
+      "filename": "nsccl.20130131.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20130131.s.zip"
+    },
+    {
+      "filename": "nsccl.20130131.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20130131.i01.zip"
+    }
+  ],
+  "2016-01-29": [
+    {
+      "filename": "fo29JAN2016bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2016/JAN/fo29JAN2016bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20160129_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20160129_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_29012016.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_29012016.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_29012016.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_29012016.csv"
+    },
+    {
+      "filename": "nsccl.20160129.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20160129.s.zip"
+    },
+    {
+      "filename": "nsccl.20160129.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20160129.i01.zip"
+    }
+  ],
+  "2018-12-24": [
+    {
+      "filename": "fo24DEC2018bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2018/DEC/fo24DEC2018bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20181224_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20181224_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_24122018.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_24122018.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_24122018.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_24122018.csv"
+    },
+    {
+      "filename": "nsccl.20181224.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181224.s.zip"
+    },
+    {
+      "filename": "nsccl.20181224.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181224.i01.zip"
+    }
+  ],
+  "2018-12-26": [
+    {
+      "filename": "fo26DEC2018bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2018/DEC/fo26DEC2018bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20181226_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20181226_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_26122018.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_26122018.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_26122018.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_26122018.csv"
+    },
+    {
+      "filename": "nsccl.20181226.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181226.s.zip"
+    },
+    {
+      "filename": "nsccl.20181226.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181226.i01.zip"
+    }
+  ],
+  "2018-12-27": [
+    {
+      "filename": "fo27DEC2018bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2018/DEC/fo27DEC2018bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20181227_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20181227_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_27122018.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_27122018.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_27122018.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_27122018.csv"
+    },
+    {
+      "filename": "nsccl.20181227.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181227.s.zip"
+    },
+    {
+      "filename": "nsccl.20181227.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181227.i01.zip"
+    }
+  ],
+  "2018-12-28": [
+    {
+      "filename": "fo28DEC2018bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2018/DEC/fo28DEC2018bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20181228_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20181228_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_28122018.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_28122018.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_28122018.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_28122018.csv"
+    },
+    {
+      "filename": "nsccl.20181228.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181228.s.zip"
+    },
+    {
+      "filename": "nsccl.20181228.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181228.i01.zip"
+    }
+  ],
+  "2018-12-31": [
+    {
+      "filename": "fo31DEC2018bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2018/DEC/fo31DEC2018bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20181231_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20181231_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_31122018.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_31122018.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_31122018.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_31122018.csv"
+    },
+    {
+      "filename": "nsccl.20181231.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181231.s.zip"
+    },
+    {
+      "filename": "nsccl.20181231.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20181231.i01.zip"
+    }
+  ],
+  "2019-01-31": [
+    {
+      "filename": "fo31JAN2019bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2019/JAN/fo31JAN2019bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20190131_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20190131_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_31012019.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_31012019.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_31012019.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_31012019.csv"
+    },
+    {
+      "filename": "nsccl.20190131.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20190131.s.zip"
+    },
+    {
+      "filename": "nsccl.20190131.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20190131.i01.zip"
+    }
+  ],
+  "2023-01-31": [
+    {
+      "filename": "fo31JAN2023bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2023/JAN/fo31JAN2023bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20230131_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20230131_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_31012023.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_31012023.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_31012023.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_31012023.csv"
+    },
+    {
+      "filename": "nsccl.20230131.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20230131.s.zip"
+    },
+    {
+      "filename": "nsccl.20230131.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20230131.i01.zip"
+    }
+  ],
+  "2023-12-22": [
+    {
+      "filename": "fo22DEC2023bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2023/DEC/fo22DEC2023bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20231222_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20231222_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_22122023.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_22122023.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_22122023.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_22122023.csv"
+    },
+    {
+      "filename": "nsccl.20231222.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231222.s.zip"
+    },
+    {
+      "filename": "nsccl.20231222.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231222.i01.zip"
+    }
+  ],
+  "2023-12-26": [
+    {
+      "filename": "fo26DEC2023bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2023/DEC/fo26DEC2023bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20231226_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20231226_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_26122023.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_26122023.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_26122023.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_26122023.csv"
+    },
+    {
+      "filename": "nsccl.20231226.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231226.s.zip"
+    },
+    {
+      "filename": "nsccl.20231226.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231226.i01.zip"
+    }
+  ],
+  "2023-12-27": [
+    {
+      "filename": "fo27DEC2023bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2023/DEC/fo27DEC2023bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20231227_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20231227_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_27122023.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_27122023.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_27122023.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_27122023.csv"
+    },
+    {
+      "filename": "nsccl.20231227.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231227.s.zip"
+    },
+    {
+      "filename": "nsccl.20231227.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231227.i01.zip"
+    }
+  ],
+  "2023-12-28": [
+    {
+      "filename": "fo28DEC2023bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2023/DEC/fo28DEC2023bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20231228_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20231228_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_28122023.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_28122023.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_28122023.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_28122023.csv"
+    },
+    {
+      "filename": "nsccl.20231228.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231228.s.zip"
+    },
+    {
+      "filename": "nsccl.20231228.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231228.i01.zip"
+    }
+  ],
+  "2023-12-29": [
+    {
+      "filename": "fo29DEC2023bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2023/DEC/fo29DEC2023bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20231229_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20231229_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_29122023.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_29122023.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_29122023.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_29122023.csv"
+    },
+    {
+      "filename": "nsccl.20231229.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231229.s.zip"
+    },
+    {
+      "filename": "nsccl.20231229.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20231229.i01.zip"
+    }
+  ],
+  "2024-07-01": [
+    {
+      "filename": "fo01JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo01JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240701_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240701_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_01072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_01072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_01072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_01072024.csv"
+    },
+    {
+      "filename": "nsccl.20240701.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240701.s.zip"
+    },
+    {
+      "filename": "nsccl.20240701.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240701.i01.zip"
+    }
+  ],
+  "2024-07-02": [
+    {
+      "filename": "fo02JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo02JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240702_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240702_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_02072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_02072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_02072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_02072024.csv"
+    },
+    {
+      "filename": "nsccl.20240702.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240702.s.zip"
+    },
+    {
+      "filename": "nsccl.20240702.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240702.i01.zip"
+    }
+  ],
+  "2024-07-03": [
+    {
+      "filename": "fo03JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo03JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240703_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240703_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_03072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_03072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_03072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_03072024.csv"
+    },
+    {
+      "filename": "nsccl.20240703.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240703.s.zip"
+    },
+    {
+      "filename": "nsccl.20240703.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240703.i01.zip"
+    }
+  ],
+  "2024-07-04": [
+    {
+      "filename": "fo04JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo04JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240704_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240704_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_04072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_04072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_04072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_04072024.csv"
+    },
+    {
+      "filename": "nsccl.20240704.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240704.s.zip"
+    },
+    {
+      "filename": "nsccl.20240704.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240704.i01.zip"
+    }
+  ],
+  "2024-07-05": [
+    {
+      "filename": "fo05JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo05JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240705_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240705_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_05072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_05072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_05072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_05072024.csv"
+    },
+    {
+      "filename": "nsccl.20240705.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240705.s.zip"
+    },
+    {
+      "filename": "nsccl.20240705.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240705.i01.zip"
+    }
+  ],
+  "2024-07-08": [
+    {
+      "filename": "fo08JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo08JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240708_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240708_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_08072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_08072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_08072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_08072024.csv"
+    },
+    {
+      "filename": "nsccl.20240708.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240708.s.zip"
+    },
+    {
+      "filename": "nsccl.20240708.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240708.i01.zip"
+    }
+  ],
+  "2024-07-09": [
+    {
+      "filename": "fo09JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo09JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240709_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240709_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_09072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_09072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_09072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_09072024.csv"
+    },
+    {
+      "filename": "nsccl.20240709.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240709.s.zip"
+    },
+    {
+      "filename": "nsccl.20240709.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240709.i01.zip"
+    }
+  ],
+  "2024-07-10": [
+    {
+      "filename": "fo10JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo10JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240710_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240710_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_10072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_10072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_10072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_10072024.csv"
+    },
+    {
+      "filename": "nsccl.20240710.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240710.s.zip"
+    },
+    {
+      "filename": "nsccl.20240710.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240710.i01.zip"
+    }
+  ],
+  "2024-07-11": [
+    {
+      "filename": "fo11JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo11JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240711_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240711_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_11072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_11072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_11072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_11072024.csv"
+    },
+    {
+      "filename": "nsccl.20240711.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240711.s.zip"
+    },
+    {
+      "filename": "nsccl.20240711.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240711.i01.zip"
+    }
+  ],
+  "2024-07-12": [
+    {
+      "filename": "fo12JUL2024bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2024/JUL/fo12JUL2024bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20240712_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20240712_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_12072024.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_12072024.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_12072024.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_12072024.csv"
+    },
+    {
+      "filename": "nsccl.20240712.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240712.s.zip"
+    },
+    {
+      "filename": "nsccl.20240712.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20240712.i01.zip"
+    }
+  ],
+  "2025-01-31": [
+    {
+      "filename": "fo31JAN2025bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2025/JAN/fo31JAN2025bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20250131_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20250131_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_31012025.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_31012025.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_31012025.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_31012025.csv"
+    },
+    {
+      "filename": "nsccl.20250131.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20250131.s.zip"
+    },
+    {
+      "filename": "nsccl.20250131.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20250131.i01.zip"
+    }
+  ],
+  "2026-08-06": [
+    {
+      "filename": "fo06AUG2026bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2026/AUG/fo06AUG2026bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20260806_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260806_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_06082026.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_06082026.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_06082026.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_06082026.csv"
+    },
+    {
+      "filename": "nsccl.20260806.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260806.s.zip"
+    },
+    {
+      "filename": "nsccl.20260806.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260806.i01.zip"
+    }
+  ],
+  "2026-08-07": [
+    {
+      "filename": "fo07AUG2026bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2026/AUG/fo07AUG2026bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20260807_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260807_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_07082026.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_07082026.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_07082026.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_07082026.csv"
+    },
+    {
+      "filename": "nsccl.20260807.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260807.s.zip"
+    },
+    {
+      "filename": "nsccl.20260807.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260807.i01.zip"
+    }
+  ],
+  "2026-08-10": [
+    {
+      "filename": "fo10AUG2026bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2026/AUG/fo10AUG2026bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20260810_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260810_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_10082026.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_10082026.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_10082026.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_10082026.csv"
+    },
+    {
+      "filename": "nsccl.20260810.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260810.s.zip"
+    },
+    {
+      "filename": "nsccl.20260810.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260810.i01.zip"
+    }
+  ],
+  "2026-08-11": [
+    {
+      "filename": "fo11AUG2026bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2026/AUG/fo11AUG2026bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20260811_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260811_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_11082026.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_11082026.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_11082026.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_11082026.csv"
+    },
+    {
+      "filename": "nsccl.20260811.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260811.s.zip"
+    },
+    {
+      "filename": "nsccl.20260811.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260811.i01.zip"
+    }
+  ],
+  "2026-08-12": [
+    {
+      "filename": "fo12AUG2026bhav.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "LEGACY_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://archives.nseindia.com/content/historical/DERIVATIVES/2026/AUG/fo12AUG2026bhav.csv.zip"
+    },
+    {
+      "filename": "BhavCopy_NSE_FO_0_0_0_20260812_F_0000.csv.zip",
+      "report_type": "bhavcopy",
+      "source_format": "UDIFF_FO_BHAVCOPY",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260812_F_0000.csv.zip"
+    },
+    {
+      "filename": "NSE_FO_contract_12082026.csv.gz",
+      "report_type": "contract",
+      "source_format": "MII_FO_CONTRACT_FILE",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/NSE_FO_contract_12082026.csv.gz"
+    },
+    {
+      "filename": "fo_settlement_12082026.csv",
+      "report_type": "settlement",
+      "source_format": "FO_DAILY_SETTLEMENT",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/fo_settlement_12082026.csv"
+    },
+    {
+      "filename": "nsccl.20260812.s.zip",
+      "report_type": "span_eod",
+      "source_format": "FO_SPAN_EOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260812.s.zip"
+    },
+    {
+      "filename": "nsccl.20260812.i01.zip",
+      "report_type": "span_bod",
+      "source_format": "FO_SPAN_BOD",
+      "source_page": "https://www.nseindia.com/all-reports-derivatives",
+      "url": "https://nsearchives.nseindia.com/content/fo/nsccl.20260812.i01.zip"
+    }
+  ]
+}

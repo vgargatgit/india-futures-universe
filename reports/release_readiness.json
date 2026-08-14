@@ -1,0 +1,15 @@
+{
+  "active_universe_validation": {
+    "missing": [],
+    "release_id": "india_equity_data_v2.2.9",
+    "release_root": "/Users/vikasgarg/Developer/india-active-universe/releases/india_equity_data_v2.2.9",
+    "status": "INDIA_ACTIVE_UNIVERSE_PIN_VALIDATED"
+  },
+  "attempted_reports": 192,
+  "futstk_rows_observed": 28766,
+  "margin_evidence_available": false,
+  "pairs_lab_executable_readiness": "NOT_READY_FULL_HISTORY_NOT_BUILT",
+  "parseable_reports": 50,
+  "release_quality_classification": "SOURCE_CAPTURE_ONLY",
+  "spike_classification": "PUBLIC_NSE_BHAVCOPY_AND_CONTRACT_HISTORY_FEASIBLE"
+}
