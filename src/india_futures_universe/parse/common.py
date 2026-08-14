@@ -43,8 +43,10 @@ def require_columns(df: pd.DataFrame, columns: Iterable[str], source_format: str
 
 def parse_date_column(series: pd.Series) -> pd.Series:
     numeric = pd.to_numeric(series, errors="coerce")
-    if numeric.notna().all() and (numeric > 1_000_000_000).all():
-        parsed = pd.to_datetime(numeric, errors="coerce", unit="s")
+    if numeric.notna().any() and (numeric.dropna() > 1_000_000_000).mean() > 0.5:
+        # NSE MII contract files encode dates as seconds from 1980-01-01, not
+        # Unix epoch seconds.
+        parsed = pd.Timestamp("1980-01-01") + pd.to_timedelta(numeric.where(numeric > 1_000_000_000), unit="s")
     elif series.astype(str).str.match(r"^\d{4}-\d{2}-\d{2}$").all():
         parsed = pd.to_datetime(series, errors="coerce", format="%Y-%m-%d")
     else:

@@ -26,6 +26,12 @@ def parse_contract_file(path: str | Path, *, as_of_date: str, source_sha256: str
     missing = [target for target in ["instrument_type", "underlying_symbol_raw", "expiry_date", "market_lot"] if resolved[target] is None]
     if missing:
         raise ParseError(f"MII_FO_CONTRACT_FILE schema unresolved for: {missing}")
+    raw = raw[
+        raw[resolved["instrument_type"]].notna()
+        & raw[resolved["underlying_symbol_raw"]].notna()
+        & (raw[resolved["instrument_type"]].astype(str).str.strip() != "")
+        & (raw[resolved["underlying_symbol_raw"]].astype(str).str.strip() != "")
+    ].copy()
     out = pd.DataFrame(
         {
             "as_of_date": as_of_date,
