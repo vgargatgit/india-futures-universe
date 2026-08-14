@@ -75,6 +75,8 @@ def _numeric_or_default(df: pd.DataFrame, col: str | None, label: str, default):
 
 
 def _raw_contract_key(raw: pd.DataFrame, resolved: dict[str, str | None]) -> pd.Series:
+    if resolved.get("exchange_instrument_id"):
+        return raw[resolved["exchange_instrument_id"]].astype(str)
     key_columns = [
         resolved["exchange_instrument_id"],
         resolved["instrument_type"],
