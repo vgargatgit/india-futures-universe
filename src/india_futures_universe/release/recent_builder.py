@@ -30,6 +30,7 @@ def build_recent_release(config: FuturesUniverseConfig, *, start: str, end: str,
     quality = _build_quality_daily(sessions, prices, contract_master)
     coverage = _build_coverage_by_year(prices, contract_master)
     pairs_history = _build_pairs_history(prices)
+    static_margin = _build_static_margin_proxy(pairs_history)
     release_root = Path(config.paths.release_root) / release_id
     release_root.mkdir(parents=True, exist_ok=True)
     artifacts = {
@@ -47,6 +48,7 @@ def build_recent_release(config: FuturesUniverseConfig, *, start: str, end: str,
         "futures_coverage_by_year.parquet": coverage,
         "pairs_lab_contract_history.parquet": pairs_history,
         "pairs_lab_fno_eligibility.parquet": eligibility.rename(columns={"date": "trade_date"}),
+        "pairs_lab_static_margin_proxy.parquet": static_margin,
     }
     manifest_artifacts = {}
     for name, frame in artifacts.items():
@@ -391,6 +393,15 @@ def _build_pairs_history(prices: pd.DataFrame) -> pd.DataFrame:
     ]
 
 
+def _build_static_margin_proxy(pairs_history: pd.DataFrame) -> pd.DataFrame:
+    if pairs_history.empty:
+        return pd.DataFrame(columns=["trade_date", "contract_identifier", "margin_rate", "margin_evidence_status"])
+    return pairs_history[["trade_date", "contract_identifier"]].drop_duplicates().assign(
+        margin_rate=0.35,
+        margin_evidence_status="STATIC_CONSERVATIVE_PROXY_NOT_HISTORICAL_SPAN",
+    )
+
+
 def _write_reports(config, release_id, release_root, manifest, prices, contracts, eligibility, coverage) -> None:
     report_root = Path(config.paths.report_root)
     report_root.mkdir(parents=True, exist_ok=True)
@@ -410,6 +421,7 @@ def _write_reports(config, release_id, release_root, manifest, prices, contracts
         "settlement_verified_fraction": 0.0,
         "release_quality_classification": "RESEARCH_HIGH_CONFIDENCE_PRICE_AND_CONTRACT_WITHOUT_MARGIN" if not prices.empty and not contracts.empty else "SOURCE_CAPTURE_ONLY",
         "pairs_compatibility_file": str(release_root / "pairs_lab_contract_history.parquet"),
+        "pairs_margin_proxy_file": str(release_root / "pairs_lab_static_margin_proxy.parquet"),
         "margin_evidence": "HISTORICAL_MARGIN_UNAVAILABLE",
         "known_limitations": manifest["known_limitations"],
     }
