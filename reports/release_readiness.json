@@ -1,15 +1,20 @@
 {
-  "active_universe_validation": {
-    "missing": [],
-    "release_id": "india_equity_data_v2.2.9",
-    "release_root": "/Users/vikasgarg/Developer/india-active-universe/releases/india_equity_data_v2.2.9",
-    "status": "INDIA_ACTIVE_UNIVERSE_PIN_VALIDATED"
-  },
-  "attempted_reports": 192,
-  "futstk_rows_observed": 28766,
-  "margin_evidence_available": false,
-  "pairs_lab_executable_readiness": "NOT_READY_FULL_HISTORY_NOT_BUILT",
-  "parseable_reports": 50,
-  "release_quality_classification": "SOURCE_CAPTURE_ONLY",
-  "spike_classification": "PUBLIC_NSE_BHAVCOPY_AND_CONTRACT_HISTORY_FEASIBLE"
+  "contract_master_rows": 331393,
+  "futstk_eligible_rows": 108600,
+  "futures_daily_price_rows": 316686,
+  "identity_mapping_failures": 0,
+  "known_limitations": [
+    "Settlement report reconciliation unavailable in this build.",
+    "SPAN historical margin unavailable; downstream must use conservative margin scenarios.",
+    "Identity mapping is effective-dated symbol based unless future official ISIN evidence is added."
+  ],
+  "lot_size_verified_fraction": 1.0,
+  "margin_evidence": "HISTORICAL_MARGIN_UNAVAILABLE",
+  "pairs_compatibility_file": "releases/india_futures_data_v0.1.0_recent_20240701_20260812/pairs_lab_contract_history.parquet",
+  "pairs_margin_proxy_file": "releases/india_futures_data_v0.1.0_recent_20240701_20260812/pairs_lab_static_margin_proxy.parquet",
+  "release_id": "india_futures_data_v0.1.0_recent_20240701_20260812",
+  "release_quality_classification": "RESEARCH_HIGH_CONFIDENCE_PRICE_AND_CONTRACT_WITHOUT_MARGIN",
+  "release_root": "releases/india_futures_data_v0.1.0_recent_20240701_20260812",
+  "settlement_verified_fraction": 0.0,
+  "unique_mapped_security_count": 269
 }

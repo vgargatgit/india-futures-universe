@@ -1,5 +1,5 @@
 # Release Readiness
 
-Spike classification: `PUBLIC_NSE_BHAVCOPY_AND_CONTRACT_HISTORY_FEASIBLE`
+Release `india_futures_data_v0.1.0_recent_20240701_20260812` contains 316,686 FUTSTK daily price rows and 331,393 contract-master rows.
 
-No release is published by the discovery spike. Full build remains gated by verified legacy, UDiFF and contract-file coverage.
+Historical SPAN margin and settlement-report reconciliation are not available in this build.

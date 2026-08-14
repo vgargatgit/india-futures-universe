@@ -1,0 +1,86 @@
+{
+  "active_universe_release": {
+    "release_id": "india_equity_data_v2.2.9",
+    "release_root": "/Users/vikasgarg/Developer/india-active-universe/releases/india_equity_data_v2.2.9"
+  },
+  "artifact_hashes": {
+    "futstk_eligibility_daily.parquet": {
+      "rows": 108600,
+      "sha256": "c59992055303348575ac6d0ab0801cda233646f01e67a71f1616de2c4b5578cd"
+    },
+    "futures_contract_adjustments.parquet": {
+      "rows": 0,
+      "sha256": "f284f0049ec9c17f9592abf5f06b9dfcb46d93299256e058f543cb18ff2bd100"
+    },
+    "futures_contract_lifecycle.parquet": {
+      "rows": 5835,
+      "sha256": "3e4bff5a146c9841d7b2837cc548d4da79dca01ed120863eef86d6141710d8fb"
+    },
+    "futures_contract_master_daily.parquet": {
+      "rows": 331393,
+      "sha256": "ad304b6ca1a23865fb882ed4f8ba4e1433068d0afc14c8539206e8bbe9606b0f"
+    },
+    "futures_coverage_by_year.parquet": {
+      "rows": 3,
+      "sha256": "59d41414684243f889f79f2de1a77aafcbc66748699591bde463d7f95cb4c905"
+    },
+    "futures_daily_prices.parquet": {
+      "rows": 316686,
+      "sha256": "177297d14d54bf583970f98c2b2a3174bdfa5c4b01dbef910fe557b5460a8d85"
+    },
+    "futures_data_quality_daily.parquet": {
+      "rows": 524,
+      "sha256": "9a1f86ee6f6b96d04632ace9637227a7b8c497fe4b258adc55443a41f7651ecb"
+    },
+    "futures_expiry_buckets_daily.parquet": {
+      "rows": 331393,
+      "sha256": "6215aa418fb15e42c2d1f895bec8217c0acc4e7717c0679b52dffa704c31ce18"
+    },
+    "futures_lot_size_history.parquet": {
+      "rows": 536,
+      "sha256": "1f8b5cb5293bb669936a1f026b05121f276c9df2f9b0216a1e1ef618d786dbe2"
+    },
+    "futures_roll_calendar.parquet": {
+      "rows": 109124,
+      "sha256": "8cfc9ba7f64403b6ec4a0dae8d8f4b04b9e230b35dd09e37ae989471e07cff51"
+    },
+    "futures_settlement_reconciliation.parquet": {
+      "rows": 316686,
+      "sha256": "0381f9baecf450efa8cc7e425a309ac14860e801e4e51e323e5ad77c3969f3da"
+    },
+    "futures_underlying_identity_map.parquet": {
+      "rows": 118036,
+      "sha256": "033d3c892b0c41b37f6b61ee0132d4d66b66256771f05d7cfcdd5683a5004519"
+    },
+    "pairs_lab_contract_history.parquet": {
+      "rows": 310757,
+      "sha256": "6917d777a76890c0dfa0a2f659fb40150aa68b1e2ed2fffba60e80d6e4aafef3"
+    },
+    "pairs_lab_fno_eligibility.parquet": {
+      "rows": 108600,
+      "sha256": "db735ecdad46a2ba47ed3a632059b96a10ee5f4ee90bfdb36064cbacd041ef48"
+    },
+    "pairs_lab_static_margin_proxy.parquet": {
+      "rows": 310757,
+      "sha256": "e5371a4b0dfa4eb47b31baba591142c2b31d09d3174e8e0d4c8b8b082f844ae2"
+    }
+  },
+  "known_limitations": [
+    "Settlement report reconciliation unavailable in this build.",
+    "SPAN historical margin unavailable; downstream must use conservative margin scenarios.",
+    "Identity mapping is effective-dated symbol based unless future official ISIN evidence is added."
+  ],
+  "producer_git": {
+    "branch": "main",
+    "dirty_status": "",
+    "head": "3392045950e0518c47723d738c8e2054a10b3dd6"
+  },
+  "quality_tiers": [
+    "SOURCE_CAPTURE_ONLY",
+    "CONTRACT_AND_LOT_VERIFIED",
+    "HISTORICAL_MARGIN_UNAVAILABLE"
+  ],
+  "release_id": "india_futures_data_v0.1.0_recent_20240701_20260812",
+  "research_end": "2026-08-12",
+  "research_start": "2024-07-01"
+}
