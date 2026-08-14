@@ -21,7 +21,7 @@ CONTRACT_ALIASES = {
 
 
 def parse_contract_file(path: str | Path, *, as_of_date: str, source_sha256: str = "") -> pd.DataFrame:
-    raw = normalize_columns(read_csv_payload(path))
+    raw = normalize_columns(read_csv_payload(path, usecols_normalized=_needed_columns(CONTRACT_ALIASES)))
     resolved = {target: _find(raw, aliases) for target, aliases in CONTRACT_ALIASES.items()}
     missing = [target for target in ["instrument_type", "underlying_symbol_raw", "expiry_date", "market_lot"] if resolved[target] is None]
     if missing:
@@ -62,6 +62,10 @@ def _find(df: pd.DataFrame, aliases: tuple[str, ...]) -> str | None:
         if col in normalized_aliases:
             return col
     return None
+
+
+def _needed_columns(aliases: dict[str, tuple[str, ...]]) -> set[str]:
+    return {alias.upper().replace(" ", "_") for values in aliases.values() for alias in values}
 
 
 def _numeric_or_default(df: pd.DataFrame, col: str | None, label: str, default):

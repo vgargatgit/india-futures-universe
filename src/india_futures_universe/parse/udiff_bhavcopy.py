@@ -29,7 +29,7 @@ UDIFF_ALIASES = {
 
 
 def parse_udiff_bhavcopy(path: str | Path, *, source_sha256: str = "") -> pd.DataFrame:
-    raw = normalize_columns(read_csv_payload(path))
+    raw = normalize_columns(read_csv_payload(path, usecols_normalized=_needed_columns(UDIFF_ALIASES)))
     resolved = {target: _find(raw, aliases) for target, aliases in UDIFF_ALIASES.items()}
     mandatory = [
         "trade_date",
@@ -81,6 +81,10 @@ def _find(df: pd.DataFrame, aliases: tuple[str, ...]) -> str | None:
         if col in normalized_aliases:
             return col
     return None
+
+
+def _needed_columns(aliases: dict[str, tuple[str, ...]]) -> set[str]:
+    return {alias.upper().replace(" ", "_") for values in aliases.values() for alias in values}
 
 
 def _numeric_or_default(df: pd.DataFrame, col: str | None, label: str, default):

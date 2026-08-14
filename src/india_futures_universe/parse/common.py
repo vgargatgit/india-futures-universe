@@ -13,20 +13,23 @@ class ParseError(ValueError):
     pass
 
 
-def read_csv_payload(path: str | Path) -> pd.DataFrame:
+def read_csv_payload(path: str | Path, *, usecols_normalized: set[str] | None = None) -> pd.DataFrame:
     path = Path(path)
     payload = path.read_bytes()
+    usecols = None
+    if usecols_normalized is not None:
+        usecols = lambda col: str(col).strip().upper().replace(" ", "_") in usecols_normalized
     if payload.startswith(b"PK\x03\x04"):
         with zipfile.ZipFile(io.BytesIO(payload)) as archive:
             csv_members = [name for name in archive.namelist() if name.lower().endswith((".csv", ".txt"))]
             if len(csv_members) != 1:
                 raise ParseError(f"Expected one CSV/TXT member, found {csv_members}")
             with archive.open(csv_members[0]) as handle:
-                return pd.read_csv(handle)
+                return pd.read_csv(handle, usecols=usecols)
     if payload.startswith(b"\x1f\x8b"):
         with gzip.GzipFile(fileobj=io.BytesIO(payload)) as handle:
-            return pd.read_csv(handle)
-    return pd.read_csv(io.BytesIO(payload))
+            return pd.read_csv(handle, usecols=usecols)
+    return pd.read_csv(io.BytesIO(payload), usecols=usecols)
 
 
 def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
