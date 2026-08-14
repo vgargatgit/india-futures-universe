@@ -47,7 +47,7 @@ def parse_contract_file(path: str | Path, *, as_of_date: str, source_sha256: str
             "tick_size": _numeric_or_default(raw, resolved["tick_size"], "tick_size", pd.NA),
             "quantity_freeze": _numeric_or_default(raw, resolved["quantity_freeze"], "quantity_freeze", pd.NA),
             "contract_status": "LISTED",
-            "raw_contract_key": raw.astype(str).agg("|".join, axis=1),
+            "raw_contract_key": _raw_contract_key(raw, resolved),
             "source_filename": Path(path).name,
             "source_sha256": source_sha256,
             "raw_row_number": raw.index + 1,
@@ -68,6 +68,19 @@ def _numeric_or_default(df: pd.DataFrame, col: str | None, label: str, default):
     if col is None:
         return pd.Series([default] * len(df), index=df.index)
     return to_optional_numeric(df[col], default=default)
+
+
+def _raw_contract_key(raw: pd.DataFrame, resolved: dict[str, str | None]) -> pd.Series:
+    key_columns = [
+        resolved["exchange_instrument_id"],
+        resolved["instrument_type"],
+        resolved["underlying_symbol_raw"],
+        resolved["expiry_date"],
+        resolved["strike_price"],
+        resolved["option_type"],
+    ]
+    present = [col for col in key_columns if col]
+    return raw[present].astype(str).agg("|".join, axis=1)
 
 
 def _contract_instrument_type(value: str) -> str:
