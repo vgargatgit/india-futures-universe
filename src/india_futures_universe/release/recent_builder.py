@@ -8,7 +8,6 @@ import pandas as pd
 from india_futures_universe.canonical.contracts import contract_id
 from india_futures_universe.config import FuturesUniverseConfig
 from india_futures_universe.identity.active_universe_adapter import ActiveUniverseRelease
-from india_futures_universe.identity.resolver import resolve_symbol_on_date
 from india_futures_universe.parse.contract_file import parse_contract_file
 from india_futures_universe.parse.legacy_bhavcopy import parse_legacy_bhavcopy
 from india_futures_universe.parse.udiff_bhavcopy import parse_udiff_bhavcopy
@@ -19,7 +18,7 @@ def build_recent_release(config: FuturesUniverseConfig, *, start: str, end: str,
     repo_root = Path.cwd()
     release = ActiveUniverseRelease(Path(config.active_universe.release_root), config.active_universe.release_id)
     sessions = release.sessions(start, end)
-    symbol_history = release.symbol_history()
+    symbol_history = _prepare_symbol_history(release.symbol_history())
     contract_master = _load_contract_rows(config, sessions, symbol_history)
     prices = _load_price_rows(config, sessions, symbol_history, contract_master)
     eligibility = _build_eligibility(contract_master)
@@ -144,11 +143,51 @@ def _map_identity(frame: pd.DataFrame, symbol_history: pd.DataFrame, *, date_col
         key = (str(row["underlying_symbol_raw"]), str(row[date_col]))
         result = cache.get(key)
         if result is None:
-            result = resolve_symbol_on_date(symbol_history, symbol=key[0], trade_date=key[1])
+            result = _resolve_symbol_fast(symbol_history, symbol=key[0], trade_date=key[1])
             cache[key] = result
         row.update(result)
         rows.append(row)
     return pd.DataFrame(rows)
+
+
+def _prepare_symbol_history(symbol_history: pd.DataFrame) -> pd.DataFrame:
+    out = symbol_history.copy()
+    out["_symbol_upper"] = out["symbol"].astype(str).str.upper()
+    out["_effective_from"] = pd.to_datetime(out["effective_from"]).dt.date.astype(str)
+    out["_effective_to"] = pd.to_datetime(out["effective_to"]).dt.date.astype(str)
+    return out
+
+
+def _resolve_symbol_fast(symbol_history: pd.DataFrame, *, symbol: str, trade_date: str) -> dict:
+    target = symbol.strip().upper()
+    matches = symbol_history[(symbol_history["_symbol_upper"] == target) & (symbol_history["_effective_from"] <= trade_date) & (symbol_history["_effective_to"] >= trade_date)]
+    if len(matches) == 1:
+        row = matches.iloc[0]
+        return {
+            "mapping_status": "EXACT_EFFECTIVE_SYMBOL_DATE_MATCH",
+            "security_id": row["security_id"],
+            "mapping_method": "symbol_history",
+            "mapping_evidence_start": row["effective_from"],
+            "mapping_evidence_end": row["effective_to"],
+            "match_count": 1,
+        }
+    if len(matches) == 0:
+        return {
+            "mapping_status": "UNMAPPED",
+            "security_id": "",
+            "mapping_method": "symbol_history",
+            "mapping_evidence_start": "",
+            "mapping_evidence_end": "",
+            "match_count": 0,
+        }
+    return {
+        "mapping_status": "AMBIGUOUS",
+        "security_id": "",
+        "mapping_method": "symbol_history",
+        "mapping_evidence_start": "",
+        "mapping_evidence_end": "",
+        "match_count": int(len(matches)),
+    }
 
 
 def _attach_contract_facts(prices: pd.DataFrame, contracts: pd.DataFrame) -> pd.DataFrame:
